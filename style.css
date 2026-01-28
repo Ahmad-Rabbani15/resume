@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #8B4513;
+    color: #3F2A1D;
 }
 
 #site-title{
@@ -19,15 +19,24 @@ header{
 nav ul{
     list-style-type: none;
     padding: 0;
+
 }
 
 nav li{
     display: inline;
     margin-right: 1rem;
+    background-color: #C2410C;
+    border-radius: 5px;
+    padding: 4px;
+    margin: auto;
+}
+
+nav li:hover{
+    background-color: brown;
 }
 
 nav a{
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -51,6 +60,7 @@ section h2::before{
 
 #about{
     background-color: #f4f4f4;
+    color: #6B4F3A;
     padding: 1rem;
     border-radius: 5px;
 }
