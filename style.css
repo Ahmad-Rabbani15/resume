@@ -3,7 +3,8 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #3F2A1D;
+    color: #1F2937;
+    background-color:#D2E4D5;
 }
 
 #site-title{
@@ -11,7 +12,7 @@ body{
 }
 
 header{
-    background-color: #FFF7ED;
+    background-color:#79AE82;
     padding: 1rem;
     text-align: center;
 }
@@ -25,14 +26,13 @@ nav ul{
 nav li{
     display: inline;
     margin-right: 1rem;
-    background-color: #C2410C;
     border-radius: 5px;
     padding: 4px;
     margin: auto;
 }
 
 nav li:hover{
-    background-color: brown;
+    background-color: #32783E;
 }
 
 nav a{
@@ -59,14 +59,14 @@ section h2::before{
 }
 
 #about{
-    background-color: #f4f4f4;
-    color: #6B4F3A;
+    background-color: #32783E;
+    color: #D2E4D5;
     padding: 1rem;
     border-radius: 5px;
 }
 
 #experience, #education, #skills{
-    border-left: 5px  solid #007bff;
+    border-left: 5px  solid #32783E;
     padding-left: 1rem;
 }
 
@@ -100,7 +100,7 @@ input, textarea{
 }
 
 button{
-    background-color: #007bff;
+    background-color: #32783E;
     color: white;
     padding: 0.5rem 1rem;
     border: none;
@@ -114,9 +114,9 @@ button:hover{
 }
 
 footer{
-    background-color: #FFF7ED;
+    background-color:#79AE82;
     padding: 1rem;;
-    color:#8B4513;
+    color:#D2E4D5;
     text-align: center;
     padding: 1rem;
     position: fixed;
